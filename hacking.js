@@ -42,7 +42,7 @@ function string2() {
 
 function string3() {
   return new Promise((res, rej) => {
-    let str2 = "Transferring your all files and data to the server ";
+    let str2 = "Transferring your all files and data to \n the server ";
     document.querySelector("#para1").innerText += "\n\n";
     for (let j = 1; j <= str2.length; j++) {
       setTimeout(() => {
